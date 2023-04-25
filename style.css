@@ -91,6 +91,10 @@
         cursor: pointer;
         border-radius: 5px;
     }
+
+ .not-avail{
+        display: none;
+    }
    
     #pg span{
         position: relative;
@@ -117,3 +121,13 @@
    #pg span.incorrect{
     color: red;
    }
+ @media screen and (max-width: 768px) {
+        .container {
+          display: none;
+        }
+        .not-avail{
+            display: block;
+            color: black;
+            text-align: center;
+        }
+      }
